@@ -4,10 +4,10 @@ services:
     image: mongodb/mongodb-community-server
     ports:
       - '27017:27017'
-    command: [--auth]
     environment:
       - MONGO_INITDB_ROOT_USERNAME=1207202
       - MONGO_INITDB_ROOT_PASSWORD=MHDAFR6BHCTYTE3A
+      - MONGO_INITDB_DATABASE=test
     volumes:
       - dbdata6:/data/db
 volumes:
