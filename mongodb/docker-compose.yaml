@@ -7,7 +7,7 @@ services:
     volumes:
       - dbdata6:/data/db
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=14042023
-      - MONGO_INITDB_ROOT_PASSWORD=xM3NqG+!^bgCp%6L
+      - MONGO_INITDB_ROOT_USERNAME=12072023
+      - MONGO_INITDB_ROOT_PASSWORD=MHDAFR6BHCTYTE3A
 volumes:
   dbdata6:
