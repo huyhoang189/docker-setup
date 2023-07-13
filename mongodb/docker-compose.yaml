@@ -1,13 +1,9 @@
-version: '3.8'
+version: "3.8"
 services:
   mongodb:
     image: mongo
     ports:
-      - '27017:27017'
-    environment:
-      - MONGO_INITDB_ROOT_USERNAME=12072023
-      - MONGO_INITDB_ROOT_PASSWORD=MHDAFR6BHCTYTE3A
-      - MONGO_INITDB_DATABASE=test
+      - "27017:27017"
     volumes:
       - dbdata6:/data/db
 volumes:
